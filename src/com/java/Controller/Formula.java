@@ -111,7 +111,7 @@ public class Formula {
         }
         return stringBuilder.reverse().toString().toUpperCase().trim() ;
     }
-    public static int   hexadecimalToDecimal(String num) {
+    public static int hexadecimalToDecimal(String num) {
         int ans = 0;
         int eksponent = 1;
         StringBuilder stringBuilder = new StringBuilder(num.toUpperCase());

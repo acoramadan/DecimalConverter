@@ -20,6 +20,7 @@ public class ViewMain {
             System.out.println("7.Exit");
             System.out.print("Insert your option : ");
             int input = scanner.nextInt();
+            scanner.nextLine();
 
             switch (input) {
                 case 1:
