@@ -1,16 +1,14 @@
 package com.java;
 
 import com.java.Controller.Formula;
-
+import com.java.View.ViewMain;
+import com.java.Model.Number;
 import java.util.*;
 
 
 public class tes {
     public static void main(String[] args) {
-
-        Formula formula = new Formula();
-        Map<Character, Integer> hashMap = new HashMap<>();
-        hashMap.put('A',10);
-        System.out.println(formula.hexadecimalToDecimal("ABCD"));
+        Number number = new Number();
+        ViewMain.octalMenu(number);
     }
 }
